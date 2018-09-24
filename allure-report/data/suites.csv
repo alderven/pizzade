@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","pizzade.test_pizzade_login#test_pizzade_login[incorrect@log.in-IncorrectPassword-False-incorrect email and password]","40344",""
+"passed","pizzade.test_pizzade_login#test_pizzade_login[pizzade@yopmail.com-Qwerty123-True-correct credentials]","13979",""
+"passed","pizzade.test_pizzade_login#test_pizzade_login[pizzade@yopmail.com-IncorrectPassword-False-correct email and incorrect password]","39377",""
+"passed","pizzade.test_pizzade_login#test_pizzade_login[incorrect@log.in-Qwerty123-False-incorrect email and correct password]","39225",""

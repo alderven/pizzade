@@ -1,0 +1,41 @@
+[ {
+  "uid" : "fdde9a10c123267e",
+  "name" : "test_pizzade_login[incorrect@log.in-IncorrectPassword-False-incorrect email and password]",
+  "time" : {
+    "start" : 1537785704865,
+    "stop" : 1537785745209,
+    "duration" : 40344
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fcb9a04282b88048",
+  "name" : "test_pizzade_login[pizzade@yopmail.com-Qwerty123-True-correct credentials]",
+  "time" : {
+    "start" : 1537785596188,
+    "stop" : 1537785610167,
+    "duration" : 13979
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c7eec5b7945990bd",
+  "name" : "test_pizzade_login[pizzade@yopmail.com-IncorrectPassword-False-correct email and incorrect password]",
+  "time" : {
+    "start" : 1537785615504,
+    "stop" : 1537785654881,
+    "duration" : 39377
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "19a0f0b1d37120fc",
+  "name" : "test_pizzade_login[incorrect@log.in-Qwerty123-False-incorrect email and correct password]",
+  "time" : {
+    "start" : 1537785660242,
+    "stop" : 1537785699467,
+    "duration" : 39225
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

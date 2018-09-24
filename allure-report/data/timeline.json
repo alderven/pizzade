@@ -1,0 +1,61 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Darina",
+    "children" : [ {
+      "name" : "3412-MainThread",
+      "children" : [ {
+        "name" : "test_pizzade_login[incorrect@log.in-IncorrectPassword-False-incorrect email and password]",
+        "uid" : "fdde9a10c123267e",
+        "parentUid" : "b88682a9a444e63b45c63e8f23965b69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537785704865,
+          "stop" : 1537785745209,
+          "duration" : 40344
+        },
+        "flaky" : false,
+        "parameters" : [ "'incorrect email and password'", "'incorrect@log.in'", "'IncorrectPassword'", "False" ]
+      }, {
+        "name" : "test_pizzade_login[pizzade@yopmail.com-Qwerty123-True-correct credentials]",
+        "uid" : "fcb9a04282b88048",
+        "parentUid" : "b88682a9a444e63b45c63e8f23965b69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537785596188,
+          "stop" : 1537785610167,
+          "duration" : 13979
+        },
+        "flaky" : false,
+        "parameters" : [ "'correct credentials'", "'pizzade@yopmail.com'", "'Qwerty123'", "True" ]
+      }, {
+        "name" : "test_pizzade_login[pizzade@yopmail.com-IncorrectPassword-False-correct email and incorrect password]",
+        "uid" : "c7eec5b7945990bd",
+        "parentUid" : "b88682a9a444e63b45c63e8f23965b69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537785615504,
+          "stop" : 1537785654881,
+          "duration" : 39377
+        },
+        "flaky" : false,
+        "parameters" : [ "'correct email and incorrect password'", "'pizzade@yopmail.com'", "'IncorrectPassword'", "False" ]
+      }, {
+        "name" : "test_pizzade_login[incorrect@log.in-Qwerty123-False-incorrect email and correct password]",
+        "uid" : "19a0f0b1d37120fc",
+        "parentUid" : "b88682a9a444e63b45c63e8f23965b69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1537785660242,
+          "stop" : 1537785699467,
+          "duration" : 39225
+        },
+        "flaky" : false,
+        "parameters" : [ "'incorrect email and correct password'", "'incorrect@log.in'", "'Qwerty123'", "False" ]
+      } ],
+      "uid" : "b88682a9a444e63b45c63e8f23965b69"
+    } ],
+    "uid" : "47981804ec655031b71058b7a5912936"
+  } ]
+}

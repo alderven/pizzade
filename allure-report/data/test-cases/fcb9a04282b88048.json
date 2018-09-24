@@ -1,0 +1,188 @@
+{
+  "uid" : "fcb9a04282b88048",
+  "name" : "test_pizzade_login[pizzade@yopmail.com-Qwerty123-True-correct credentials]",
+  "fullName" : "pizzade.test_pizzade_login#test_pizzade_login[pizzade@yopmail.com-Qwerty123-True-correct credentials]",
+  "historyId" : "953b46e3ea6af35e85e6f9271541475c",
+  "time" : {
+    "start" : 1537785596188,
+    "stop" : 1537785610167,
+    "duration" : 13979
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1537785593029,
+      "stop" : 1537785596186,
+      "duration" : 3157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Open \"Pizza.de\" homepage",
+      "time" : {
+        "start" : 1537785596188,
+        "stop" : 1537785596362,
+        "duration" : 174
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "1. Click \"Einloggen\" (Login) button",
+      "time" : {
+        "start" : 1537785596363,
+        "stop" : 1537785606997,
+        "duration" : 10634
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1fbae8659720d120",
+        "name" : "Screenshot",
+        "source" : "1fbae8659720d120.png",
+        "type" : "image/png",
+        "size" : 724106
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "2. Log in with: correct credentials",
+      "time" : {
+        "start" : 1537785606997,
+        "stop" : 1537785610167,
+        "duration" : 3170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a173ba804cc5a73",
+        "name" : "Screenshot",
+        "source" : "a173ba804cc5a73.png",
+        "type" : "image/png",
+        "size" : 417361
+      }, {
+        "uid" : "33687b36a62dd9e7",
+        "name" : "Screenshot",
+        "source" : "33687b36a62dd9e7.png",
+        "type" : "image/png",
+        "size" : 419361
+      }, {
+        "uid" : "793f2b9cb44c3183",
+        "name" : "Screenshot",
+        "source" : "793f2b9cb44c3183.png",
+        "type" : "image/png",
+        "size" : 419740
+      }, {
+        "uid" : "3f521f5f203357cc",
+        "name" : "Screenshot",
+        "source" : "3f521f5f203357cc.png",
+        "type" : "image/png",
+        "size" : 724345
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1537785610186,
+      "stop" : 1537785612322,
+      "duration" : 2136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Test Login"
+  }, {
+    "name" : "feature",
+    "value" : "Pizza.de"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pizzade"
+  }, {
+    "name" : "suite",
+    "value" : "test_pizzade_login"
+  }, {
+    "name" : "host",
+    "value" : "Darina"
+  }, {
+    "name" : "thread",
+    "value" : "3412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pizzade.test_pizzade_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "description",
+    "value" : "'correct credentials'"
+  }, {
+    "name" : "email",
+    "value" : "'pizzade@yopmail.com'"
+  }, {
+    "name" : "password",
+    "value" : "'Qwerty123'"
+  }, {
+    "name" : "result",
+    "value" : "True"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fcb9a04282b88048.json",
+  "parameterValues" : [ "'correct credentials'", "'pizzade@yopmail.com'", "'Qwerty123'", "True" ]
+}

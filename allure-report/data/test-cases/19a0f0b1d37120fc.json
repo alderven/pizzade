@@ -1,0 +1,182 @@
+{
+  "uid" : "19a0f0b1d37120fc",
+  "name" : "test_pizzade_login[incorrect@log.in-Qwerty123-False-incorrect email and correct password]",
+  "fullName" : "pizzade.test_pizzade_login#test_pizzade_login[incorrect@log.in-Qwerty123-False-incorrect email and correct password]",
+  "historyId" : "f4cd6791edaf9efbf30bf192ffd4a629",
+  "time" : {
+    "start" : 1537785660242,
+    "stop" : 1537785699467,
+    "duration" : 39225
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1537785657093,
+      "stop" : 1537785660241,
+      "duration" : 3148
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Open \"Pizza.de\" homepage",
+      "time" : {
+        "start" : 1537785660243,
+        "stop" : 1537785660404,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "1. Click \"Einloggen\" (Login) button",
+      "time" : {
+        "start" : 1537785660404,
+        "stop" : 1537785667008,
+        "duration" : 6604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63c9621abf0ed563",
+        "name" : "Screenshot",
+        "source" : "63c9621abf0ed563.png",
+        "type" : "image/png",
+        "size" : 724106
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "2. Log in with: incorrect email and correct password",
+      "time" : {
+        "start" : 1537785667008,
+        "stop" : 1537785699467,
+        "duration" : 32459
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2f94d7b65004a47",
+        "name" : "Screenshot",
+        "source" : "e2f94d7b65004a47.png",
+        "type" : "image/png",
+        "size" : 417361
+      }, {
+        "uid" : "80d79681bf582ff6",
+        "name" : "Screenshot",
+        "source" : "80d79681bf582ff6.png",
+        "type" : "image/png",
+        "size" : 418856
+      }, {
+        "uid" : "91037d3029c98e49",
+        "name" : "Screenshot",
+        "source" : "91037d3029c98e49.png",
+        "type" : "image/png",
+        "size" : 419269
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1537785699505,
+      "stop" : 1537785701667,
+      "duration" : 2162
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Test Login"
+  }, {
+    "name" : "feature",
+    "value" : "Pizza.de"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pizzade"
+  }, {
+    "name" : "suite",
+    "value" : "test_pizzade_login"
+  }, {
+    "name" : "host",
+    "value" : "Darina"
+  }, {
+    "name" : "thread",
+    "value" : "3412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pizzade.test_pizzade_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "description",
+    "value" : "'incorrect email and correct password'"
+  }, {
+    "name" : "email",
+    "value" : "'incorrect@log.in'"
+  }, {
+    "name" : "password",
+    "value" : "'Qwerty123'"
+  }, {
+    "name" : "result",
+    "value" : "False"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19a0f0b1d37120fc.json",
+  "parameterValues" : [ "'incorrect email and correct password'", "'incorrect@log.in'", "'Qwerty123'", "False" ]
+}

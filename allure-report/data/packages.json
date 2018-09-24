@@ -1,0 +1,57 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "pizzade.test_pizzade_login",
+    "children" : [ {
+      "name" : "test_pizzade_login[pizzade@yopmail.com-Qwerty123-True-correct credentials]",
+      "uid" : "fcb9a04282b88048",
+      "parentUid" : "0b144ba7eddc138341341a6c1eda6592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537785596188,
+        "stop" : 1537785610167,
+        "duration" : 13979
+      },
+      "flaky" : false,
+      "parameters" : [ "'correct credentials'", "'pizzade@yopmail.com'", "'Qwerty123'", "True" ]
+    }, {
+      "name" : "test_pizzade_login[pizzade@yopmail.com-IncorrectPassword-False-correct email and incorrect password]",
+      "uid" : "c7eec5b7945990bd",
+      "parentUid" : "0b144ba7eddc138341341a6c1eda6592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537785615504,
+        "stop" : 1537785654881,
+        "duration" : 39377
+      },
+      "flaky" : false,
+      "parameters" : [ "'correct email and incorrect password'", "'pizzade@yopmail.com'", "'IncorrectPassword'", "False" ]
+    }, {
+      "name" : "test_pizzade_login[incorrect@log.in-Qwerty123-False-incorrect email and correct password]",
+      "uid" : "19a0f0b1d37120fc",
+      "parentUid" : "0b144ba7eddc138341341a6c1eda6592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537785660242,
+        "stop" : 1537785699467,
+        "duration" : 39225
+      },
+      "flaky" : false,
+      "parameters" : [ "'incorrect email and correct password'", "'incorrect@log.in'", "'Qwerty123'", "False" ]
+    }, {
+      "name" : "test_pizzade_login[incorrect@log.in-IncorrectPassword-False-incorrect email and password]",
+      "uid" : "fdde9a10c123267e",
+      "parentUid" : "0b144ba7eddc138341341a6c1eda6592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537785704865,
+        "stop" : 1537785745209,
+        "duration" : 40344
+      },
+      "flaky" : false,
+      "parameters" : [ "'incorrect email and password'", "'incorrect@log.in'", "'IncorrectPassword'", "False" ]
+    } ],
+    "uid" : "pizzade.test_pizzade_login"
+  } ]
+}
